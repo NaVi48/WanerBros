@@ -1,0 +1,97 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--==Title==================================-->
+<title>warnerBros.com/Feedback</title>
+<!--Stylesheet(CSS)==========================-->
+<link rel="stylesheet" href="css/style.css"/>
+<!--==Fav-icon===============================-->
+<link rel="shortcut icon" href="images/warner-bros-logo.png"/>
+<!--==Import-poppins-font====================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--==Import-Monoton-Font====================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<!--==Using-Font-Awesome======================-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<!--==CSS-Swiper==============================-->
+<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!--==Scroll-Progress-bar=========================-->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+    <!--==Navigation===================================-->
+    <nav class="navigation">
+        <!--menu-btn--------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--logo------------------->
+        <a href="index.html" class="logo">
+            <img src="Images/warner-bros-logo.png" height="50">
+        </a>
+        <!--menu------------------->
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Games&Apps.html">Games & Apps</a></li>
+            <li><a href="Tvshows.html">TV Shows</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+        </ul>
+        <!--Search-box------------->
+        <form action="" class="search-box">
+            <!--input-->
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
+            <!--btn-->
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </nav>
+    <div class="container">
+        <h1>Feedback</h1>
+        <p>We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+    
+        <form action="/submit_form" method="post"> <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+            <!--btn-->
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter Message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+     <!--==footer==============================--><footer>
+         <!--footer-logo--->
+         <a href="index.html" class="logo">
+            <img src="Images/warner-bros-logo.png" alt="" height="40">
+        </a>
+  <div class="container">
+    <p>&copy; TM & © 2024 Warner Bros. Entertainment Inc. All rights reserved. </p>
+    <p><a href="mailto:youremail@yourdomain.com">Contact Us</a></p>
+
+    <ul class="social-icons">
+      <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
+  

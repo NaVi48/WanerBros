@@ -1,0 +1,515 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--==Title==================================-->
+<title>warnerBros.com/ Games&Apps</title>
+<!--Stylesheet(CSS)==========================-->
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="d:\jnr only\myt\css\style2.css"/>
+<!--==Fav-icon===============================-->
+<link rel="shortcut icon" href="images/warner-bros-logo.png"/>
+<!--==Import-poppins-font====================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--==Import-Monoton-Font====================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<!--==Using-Font-Awesome======================-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<!--==CSS-Swiper==============================-->
+<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <!--==Poppins-font=================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--==Scroll-Progress-bar=========================-->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+    <!--==Navigation===================================-->
+    <nav class="navigation">
+        <!--menu-btn--------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--logo------------------->
+        <a href="index.html" class="logo">
+            <img src="Images/warner-bros-logo.png" height="50">
+        </a>
+        <!--menu------------------->
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <a class="active" href="Games&Apps.html"><i class="fa fa-fw fa-gamepad"></i> Game&Apps</a>
+            <li><a href="Tvshows.html">TV Shows</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+        </ul>
+        <!--Search-box------------->
+        <form action="" class="search-box">
+            <!--input-->
+            <input type="text" name="search" placeholder="Search" class="search-input" required/>
+            <!--btn-->
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </nav>
+    <!--nav-end-->
+    </div>
+    <section class="movie-banner">
+        <!--==img==================================-->
+        <div class="m-banner-img">
+            <img alt="" src="Images/hitman.jpg">
+        </div>
+        <!--content================================-->
+        <div class="banner-container">
+            <!--title-container*******************----->
+            <div class="title-container">
+                <!--title-top===============-->
+                <div class="title-top">
+                <!--title----->
+                <div class="movie-title5">
+                    <h1>HITMAN 2</h1>
+                </div>
+                <br>
+                <!--more-about-movie-->
+                <div class="more-about-movie">
+                    <div class="language">
+                        <span>ABOUT</span>
+                       </div>
+                    <span class="quality">video game</span>
+                    <span>Continuing the ultimate spy thriller story, HITMAN™ 2 allows players to take on the role of the masterful Agent 47 and embark on a mission to hunt the elusive Shadow Client and unravel his militia once and for all. However, when 47 learns the hidden truth about his past, nothing will ever be the same.</span>
+                </div>
+                <!--language--------->
+                <div class="language">
+                    <span>English</span>
+                </div>
+                </div>
+                <!--Title-botttom==========================-->
+                <div class="title-bottom">
+                    <!--category------->
+                    <div class="category">
+                        <strong>Category</strong><br/>
+                        <img src="Images/VN.png" height="50">
+                           <span>Blood, Intense Violence, Strong Language, Use of Drugs, Use of Alcohol</span>
+                    </div>
+                    <!--trailer-btn---->
+                    <a href="https://ioi.dk/hitman" class="watch-btn">Vist the official website</a>
+                </div>
+            </div>
+            <!--play-btn******************************--->
+            <div class="play-btn-container">
+                <div class="play-btn">
+                    <a href="Images/HITMAN_2_Announce_Trailer(1080p).mp4">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            <!--Video/full-Movie***************************-->
+            <div id="play" class="play">
+                <!--close-btn--->
+                <a href="javascript:void" class="close-movie">
+                    <i class="fas fa-times"></i>
+                </a>
+                <!--movie------->
+                <div class="play-movie">
+                    <video id="m-video" controls>
+                        <source src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--slider-end-------->
+    <!--==Latest-Movies==================================-->
+    <section id="latest">
+        <!--heading-------->
+        <div class="latest-heading">
+            <h1>Games</h1>
+        </div>
+        <!--container------->
+        <div class="post-container">
+            <!--post-box-1------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/Grand_Theft_Auto_V.png"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt3359350/">Grand Theft Auto V</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-2------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/Forza_Horizon_5.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt5315210/?ref_=fn_al_tt_1">Forza Horizon 5</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-3------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/rdr2.jpeg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt11734264/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Sentinelle">Red Dead Redemption 2</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-4------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/pes.jpeg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt1981128/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_Geostorm">Efootball24</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-5------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/re4.png"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt14465894/?ref_=nv_sr_srsg_4_tt_8_nm_0_q_Restless">NBA2K</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-6------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/anthen.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="#">SpiderMan2</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-7------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/dl2.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <span>2021</span>
+                        <a href="#">Call of Duty:Black ops</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-8------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/games/godofwar.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Play now</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="#">Need For Speed</a>
+                    </div>
+                </div>
+            </div>
+            </div> 
+        <!--container-end--->
+        <!--page-number=====================-->
+        <div class="page-number">
+            <a href="#" class="page-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            ....
+            <a href="#">100</a>
+        </div>
+    </section>
+    <!--==Latest-Movies==================================-->
+    <section id="latest">
+        <!--heading-------->
+        <div class="latest-heading">
+            <h1>Apps</h1>
+        </div>
+        <!--container------->
+        <div class="post-container">
+            <!--post-box-1------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/batman_return_to_arkham_app.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.warnerbros.com/games-and-apps/batman-return-arkham">batman return to arkham</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-2------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/cartoon_network_app_.png"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">Mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt5315210/?ref_=fn_al_tt_1">cartoon network app</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-3------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/injustice_2_mobileapp.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.imdb.com/title/tt11734264/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Sentinelle">injustice 2</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-4------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/lego_worlds_app.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.warnerbros.com/games-and-apps/lego-worlds">lego worlds</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-5------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/DC_Comics_app.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="https://www.warnerbros.com/games-and-apps/dc-universe-infinite">dc universe infinite</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-6------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/titansapp.png"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="#">titans</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-7------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/ScoobyDooMysteryapp.png"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <span>2021</span>
+                        <a href="#">ScoobyDoo Mystery</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--post-box-8------------>
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img alt="" src="images/apps/HITMAN_2app.jpg"/>
+                </div>
+                <!--text---------->
+            <div class="main-slider-text">
+                <!--quality----->
+                <span class="quality">mobile app</span>
+                <!--bottom-text-->
+                <div class="bottom-text">
+                    <!--name----->
+                    <div class="movie-name">
+                        <a href="#">HITMAN_2</a>
+                    </div>
+                </div>
+            </div>
+            </div> 
+        <!--container-end--->
+        <!--page-number=====================-->
+        <div class="page-number">
+            <a href="#" class="page-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            ....
+            <a href="#">100</a>
+        </div>
+    </section>
+    <!--latest-post-end------->
+    <!--==footer==============================--><footer>
+         <!--footer-logo--->
+         <a href="index.html" class="logo">
+            <img src="Images/warner-bros-logo.png" alt="" height="40">
+        </a>
+  <div class="container">
+    <p>&copy; TM & © 2024 Warner Bros. Entertainment Inc. All rights reserved. </p>
+    <p><a href="mailto:youremail@yourdomain.com">Contact Us</a></p>
+
+    <ul class="social-icons">
+      <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+         direction: "vertical",
+       pagination: {
+         el: ".swiper-pagination",
+         dynamicBullets: true,
+       },
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+       autoplay: {
+         delay: 4000,
+         disableOnInteraction: false,
+       },
+     });
+   </script>
+  
