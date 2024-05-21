@@ -100,7 +100,7 @@
             </div>
             <div class="item" style="background-image: url(kylian_mbappe_hd_fifa_23-1920x1080.jpg);">
                 <div class="content">
-                    <div class="name">FIFA 23</div>
+                    <div class="name">Australia</div>
                     <div class="des">FIFA 23 is a football video game published by EA Sports. It is the 30th installment in the FIFA series that is developed by EA Sports, the final installment under the FIFA banner, and released worldwide</div>
                     <button>See More</button>
                 </div>
@@ -112,7 +112,7 @@
                     <button>See More</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(Oppenheimer-wallpaper.jpg);">
+            <div class="item" style="background-image: url(Oppenheimer-wallpaper.jpg );">
                 <div class="content">
                     <div class="name">Oppenheimer</div>
                     <div class="des">During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's </div>
@@ -512,56 +512,58 @@
         </div>
         </div>
     </div>
-    
-    
-    <!--latest-post-end------->
-    <!--==footer==============================--><footer>
+      <!--==footer==============================--><footer>
          <!--footer-logo--->
-         <script> const slides = document.querySelectorAll('.item');
-            const nextBtn = document.querySelector('.next');
-            const prevBtn = document.querySelector('.prev');
-            const current = document.querySelector('.active');  
-          
-            let currentIndex = 0;
-          
-            nextBtn.addEventListener('click', () => {
-              removeActiveClass();
-              currentIndex = (currentIndex + 1) % slides.length;
-              slides[currentIndex].classList.add('active');
-            });
-          
-            prevBtn.addEventListener('click', () => {
-              removeActiveClass();
-              currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-              slides[currentIndex].classList.add('active');
-            });
-          
-            function removeActiveClass() {
-              current.classList.remove('active');
-            }
-         let next = document.querySelector('.next')
-            let prev = document.querySelector('.prev')
-            
-            next.addEventListener('click', function(){
-                let items = document.querySelectorAll('.item')
-                document.querySelector('.slide').appendChild(items[0])
-            })
-            
-            prev.addEventListener('click', function(){
-                let items = document.querySelectorAll('.item')
-                document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
-            })</script><section id="latest">
+         <a href="index.html" class="logo">
+            <img src="Images/warner-bros-logo.png" alt="" height="40">
+        </a>
+  <div class="container">
+    <p>&copy; TM & © 2024 Warner Bros. Entertainment Inc. All rights reserved. </p>
+    <p><a href="mailto:youremail@yourdomain.com">Contact Us</a></p>
+
+    <ul class="social-icons">
+      <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
+    <script> const slides = document.querySelectorAll('.item');
+        const nextBtn = document.querySelector('.next');
+        const prevBtn = document.querySelector('.prev');
+        const current = document.querySelector('.active');  
       
-        <!--container-end--->
-        <!--page-number=====================-->
-        <div class="page-number">
-            <a href="#" class="page-active">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            ....
-            <a href="#">100</a>
-        </div>
-    </section>
+        let currentIndex = 0;
+      
+        nextBtn.addEventListener('click', () => {
+          removeActiveClass();
+          currentIndex = (currentIndex + 1) % slides.length;
+          slides[currentIndex].classList.add('active');
+        });
+      
+        prevBtn.addEventListener('click', () => {
+          removeActiveClass();
+          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+          slides[currentIndex].classList.add('active');
+        });
+      
+        function removeActiveClass() {
+          current.classList.remove('active');
+        }
+     let next = document.querySelector('.next')
+        let prev = document.querySelector('.prev')
+        
+        next.addEventListener('click', function(){
+            let items = document.querySelectorAll('.item')
+            document.querySelector('.slide').appendChild(items[0])
+        })
+        
+        prev.addEventListener('click', function(){
+            let items = document.querySelectorAll('.item')
+            document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+        })</script>
 </body>
 </html>
   
